@@ -1,4 +1,4 @@
-meanware:gridfs
+juniobranco:gridfs
 =========================
 
 NOTE: This package is just a small update on cfs:gridfs. The original package seems not to be maintained anymore and will not work with a
@@ -13,7 +13,7 @@ use this storage adapter, file data is stored in chunks in your MongoDB database
 Install using Meteorite. When in a Meteor app directory, enter:
 
 ```
-$ meteor add meanware:gridfs
+$ meteor add juniobranco:gridfs
 ```
 
 ## Usage

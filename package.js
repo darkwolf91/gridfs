@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'meanware:gridfs',
+  name: 'juniobranco:gridfs',
   version: '0.1.1',
   summary: 'GridFS storage adapter for CollectionFS',
   git: 'https://github.com/meanware/gridfs.git'
@@ -20,7 +20,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use(['meanware:gridfs', 'test-helpers', 'tinytest'], 'server');
+  api.use(['juniobranco:gridfs', 'test-helpers', 'tinytest'], 'server');
   api.addFiles('tests/server-tests.js', 'server');
   api.addFiles('tests/client-tests.js', 'client');
 });
